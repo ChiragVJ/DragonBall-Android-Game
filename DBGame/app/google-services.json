@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "771344429613",
+    "firebase_url": "https://android-db-aa369.firebaseio.com",
+    "project_id": "android-db-aa369",
+    "storage_bucket": "android-db-aa369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771344429613:android:9592b152d48ae1097b3ea4",
+        "android_client_info": {
+          "package_name": "com.example.dbgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771344429613-4i1ghh2bctnf8sbak0ubjv2ac0vuc7du.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dbgame",
+            "certificate_hash": "44e6091a6065868bb3250f70c243ba6c90fa8f6d"
+          }
+        },
+        {
+          "client_id": "771344429613-fgavejp5qehsqiapfa8nvet9vl1mb59n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU_L_oFHni_2vq_WdUMmUcWMBPNXYpedM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771344429613-fgavejp5qehsqiapfa8nvet9vl1mb59n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

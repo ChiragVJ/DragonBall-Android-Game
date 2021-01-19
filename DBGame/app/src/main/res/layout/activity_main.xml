@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="500dp"
+        android:maxHeight="500dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+
+        android:src = "@drawable/dbbattle"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="190dp"
+        android:maxHeight="300dp"
+        android:src="@drawable/name"
+
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="150dp"
+        android:maxHeight="150dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="320dp"
+
+        android:id="@+id/entername"
+        android:src = "@drawable/entername"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="280dp"
+        android:maxHeight="240dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="#ffffff"
+        android:id="@+id/howtoplay"
+        android:src = "@drawable/howtoplay"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="170dp"
+        android:maxHeight="120dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#ffffff"
+        android:id="@+id/hiscores"
+        android:src = "@drawable/highscore"/>
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="180dp"
+
+        android:src="@drawable/play" />
+
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:id="@+id/volCtrl"
+        android:src="@drawable/ic_volume_up_black_24dp"/>
+
+
+
+
+</RelativeLayout>

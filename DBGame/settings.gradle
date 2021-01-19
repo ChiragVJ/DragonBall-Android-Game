@@ -1,0 +1,2 @@
+rootProject.name='DBGame'
+include ':app'

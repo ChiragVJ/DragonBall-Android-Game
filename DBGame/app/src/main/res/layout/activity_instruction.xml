@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="340dp"
+        android:maxHeight="340dp"
+        android:src="@drawable/howtoplay"
+
+       />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="130dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="240dp"
+        android:maxHeight="240dp"
+        android:src="@drawable/level1text"
+        android:id="@+id/lvl1"
+
+         />
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="370dp"
+    android:layout_marginTop="340dp"
+    android:adjustViewBounds="true"
+    android:maxWidth="100dp"
+    android:maxHeight="70dp"
+    android:src="@drawable/back"
+        android:id="@+id/back"
+
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="200dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="240dp"
+        android:maxHeight="240dp"
+        android:src="@drawable/level2text"
+
+        android:id="@+id/lvl2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="270dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="240dp"
+        android:maxHeight="240dp"
+        android:src="@drawable/level3text"
+
+        android:id="@+id/lvl3" />
+
+
+
+
+
+
+</RelativeLayout>
